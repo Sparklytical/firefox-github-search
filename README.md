@@ -1,22 +1,22 @@
-# Node Package Manager NPM Search add-on for Firefox.
+# Node Package Manager github Search add-on for Firefox.
 
-Install from [Mozilla Addon Store](https://addons.mozilla.org/en-US/firefox/addon/npm/).
+Install from [Mozilla Addon Store](https://addons.mozilla.org/en-US/firefox/addon/github/).
 
 ## Develop
 
 Get started:
 
 ```sh
-git clone https://github.com/Sparklytical/firefox-npm-search.git
-cd firefox-npm-search
-npm install
+git clone https://github.com/Sparklytical/firefox-github-search.git
+cd firefox-github-search
+github install
 ```
 
 Available scripts:
 
-* `npm run test` lint with [web-ext](https://github.com/mozilla/web-ext)
-* `npm run build` package the extension
-* `npm run dev` run locally
+* `github run test` lint with [web-ext](https://github.com/mozilla/web-ext)
+* `github run build` package the extension
+* `github run dev` run locally
 
 ## License
 

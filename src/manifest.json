@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Github Search",
+  "version": "0.0.1",
+  "description": "Search Github from URL bar",
+  "icons": {
+    "64": "icons/github64.png"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Github Search",
+      "search_url": "https://github.com/search?q={searchTerms}",
+      "favicon_url": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "keyword": "github"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{a52207b2-359b-48e5-9ace-c1b3a23201bf}",
+      "strict_min_version": "55.0"
+    }
+  }
+}
